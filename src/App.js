@@ -1,49 +1,31 @@
-import React, { Component } from 'react';
-import portrait from './temp/portrait.jpg';
+import React, {Component} from 'react';
 import './App.css';
-import { Layout, Menu, Button } from 'antd';
-const { Header, Content, Footer } = Layout;
-import { Router, Route, hashHistory } from 'react-router'
+import {Router, Route, hashHistory} from 'react-router'
+import Login from './Login';
+import Student from './Student';
+import Admin from './Admin'
 import MyHomeWork from './pages/myHomeWork/MyHomeWork';
 import AddLesson from './pages/addLesson/AddLesson';
+import LessonDetail from './pages/lessonDetail/LessonDetail';
 
 class App extends Component {
-  render() {
-    return (
-        <Layout className="layout">
-            <Header>
-                <div className="main-logo" />
-                <Menu
-                    theme="dark"
-                    mode="horizontal"
-                    defaultSelectedKeys={['1']}
-                    className="header-menu"
-                    style={{ lineHeight: '64px' }}
-                >
-                    <Menu.Item key="1"><a href="#myHomeWork">我的作业</a></Menu.Item>
-                    <Menu.Item key="2"><a href="#addLesson">添加课程</a></Menu.Item>
-                </Menu>
-                <div className="portrait-logout">
-                    <a href="#userInfo" className="portrait-wrap">
-                        <img src={portrait} alt="头像"/>
-                        <span className="user-name">赖智辉</span>
-                    </a>
-                    <Button className="logout-btn" type="primary">注销</Button>
-                </div>
-            </Header>
-            <Content style={{ padding: '0 50px' }}>
-                <Router history={hashHistory}>
-                    <Route path="/" component={MyHomeWork} />
-                    <Route path="myHomeWork" component={MyHomeWork} />
-                    <Route path="addLesson" component={AddLesson} />
-                </Router>
-            </Content>
-            <Footer style={{ textAlign: 'center' }}>
-                home work system ©2017 Created by zhihuilai
-            </Footer>
-        </Layout>
-    );
-  }
+    render() {
+        return (
+            <Router history={hashHistory}>
+                <Route path="login" component={Login}>
+
+                </Route>
+                <Route path="student" component={Student}>
+                    <Route path="myHomeWork" component={MyHomeWork}/>
+                    <Route path="addLesson" component={AddLesson}/>
+                    <Route path="lessonDetail/:lessonId/:lessonName" component={LessonDetail}/>
+                </Route>
+                <Route path="admin" component={Admin}>
+
+                </Route>
+            </Router>
+        );
+    }
 }
 
 export default App;
