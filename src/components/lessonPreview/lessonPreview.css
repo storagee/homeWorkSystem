@@ -1,8 +1,8 @@
 .lesson-preview {
     display: block;
     position: relative;
-    width: 224px;
-    height: 192px;
+    width: 225px;
+    height: 202px;
     overflow: hidden;
     cursor: pointer;
     -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -13,15 +13,15 @@
 .lesson-preview img {
     display: block;
     position: absolute;
-    width: 224px;
-    height: 172px;
+    width: 225px;
+    /*height: px;*/
 }
 
 .lesson-preview .info-wrapper {
     position: absolute;
-    top: 65px;
-    width: 224px;
-    height: 172px;
+    top: 75px;
+    width: 225px;
+    height: 177px;
     padding: 0 20px;
     background: white;
     -webkit-transition: top 0.5s;

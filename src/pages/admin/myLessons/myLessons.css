@@ -1,0 +1,21 @@
+.add-lesson .content-header {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.add-lesson .content-header:after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.add-lesson .content-header .ant-input-preSuffix-wrapper {
+    float: left;
+}
+
+.add-lesson .add-lesson-btn{
+    float: left;
+    margin-top: 5px;
+    margin-left: 23px;
+}

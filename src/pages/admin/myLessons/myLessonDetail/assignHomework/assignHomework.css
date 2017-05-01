@@ -1,0 +1,8 @@
+.assign-homework {
+    min-height: 400px;
+    padding: 10px 40px;
+}
+
+.assign-homework .header button{
+    margin-right: 10px;
+}

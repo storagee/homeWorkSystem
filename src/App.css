@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.ant-menu-item-selected {
+    background-color: #1a1a1a !important;
+}
+
+.common .my-lessons-tab .ant-tabs-tab{
+    font-size: 18px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.common .ant-tabs-tab-prev,
+.common .ant-tabs-tab-next {
+    margin-top: 13px;
+}
+
+.common.background {
+    background-color: white;
+}
+
+.markdown-body ol {
+    list-style-type: decimal;
+}

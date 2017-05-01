@@ -160,7 +160,7 @@ module.exports = {
       // allow it implicitly so we also enable it.
       {
         test: /\.json$/,
-        loader: 'json'
+        loader: 'json-loader'
       },
       // "file" loader for svg
       {
@@ -249,5 +249,8 @@ module.exports = {
     fs: 'empty',
     net: 'empty',
     tls: 'empty'
-  }
+  },
+    externals: {
+        'MathJax': 'MathJax'
+    }
 };

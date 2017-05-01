@@ -1,0 +1,32 @@
+.my-question-set-wrapper {
+    background-color: white;
+}
+
+.my-question-set .add-question-set {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-question-set .ant-card {
+    width: 200px;
+    float: left;
+    margin: 10px 0 10px 30px;
+    cursor: pointer;
+}
+
+.my-question-set .content-header {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.my-question-set .content {
+    padding: 10px 40px;
+}
+
+.my-question-set .content:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}

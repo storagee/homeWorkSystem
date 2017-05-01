@@ -1,0 +1,28 @@
+.my-lesson-detail {
+    background-color: white;
+}
+
+
+.lesson-detail h2 {
+    font-weight: normal;
+    border-left: solid 3px black;
+    padding-left: 10px;
+    height: 20px;
+    line-height: 20px;
+    margin: 20px 12px;
+}
+
+.lesson-detail .ant-card {
+    -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.lesson-detail .ant-card * {
+    color: #5F5F5F;
+}
+
+.lesson-detail .ant-card:hover * {
+    color: #0099FF;
+}

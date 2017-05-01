@@ -1,0 +1,78 @@
+.height-level-preview {
+    position: relative;
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 10px auto;
+    padding: 25px 45px;
+    border: solid 1px #e7e7e7;
+}
+
+.height-level-preview .preview-header {
+    border-bottom: solid 1px #e7e7e7;
+    padding-bottom: 10px;
+}
+
+.height-level-preview .preview-ul {
+    padding-left: 10px;
+}
+
+.height-level-preview .preview-li {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.height-level-preview .preview-modify,
+.height-level-preview .preview-delete {
+    position: absolute;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.height-level-preview .preview-modify {
+    right: 5px;
+    top: 5px;
+}
+.height-level-preview .preview-delete {
+    right: 30px;
+    top: 4px;
+}
+.height-level-preview .preview-modify:hover {
+    color: #1469ff;
+}
+
+
+.height-level-preview .anticon-delete {
+    right: 30px;
+    top: 3px;
+}
+
+.height-level-preview .anticon-delete:hover {
+    color: #ff0000;
+}
+
+.height-level-preview .preview-li>span:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+/*.height-level-preview .preview-li:after {*/
+    /*content: '';*/
+    /*display: block;*/
+    /*visibility: hidden;*/
+    /*height: 0;*/
+    /*clear: both;*/
+/*}*/
+
+.height-level-preview .option-alphabet {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.height-level-preview .option-content {
+    /*-webkit-flex: 1 1 auto;*/
+    /*-ms-flex: 1 1 auto;*/
+    /*flex: 1 1 auto;*/
+}

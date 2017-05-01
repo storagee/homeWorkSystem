@@ -1,0 +1,23 @@
+.my-question-set .question-set-header {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #efefef;
+    margin-bottom: 10px;
+}
+
+.my-question-set .question-set-header .add-button{
+    margin-left: 20px;
+}
+
+.my-question-set .question-set-content {
+    min-height: 320px;
+    padding: 20px;
+}
+
+.my-question-set-modal {
+    width: 90% !important;
+    max-width: 1220px;
+}
+
+.my-question-set-modal .ant-modal-title {
+    font-size: 14px;
+}

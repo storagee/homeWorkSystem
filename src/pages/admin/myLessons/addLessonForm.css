@@ -1,0 +1,40 @@
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+    width: 225px;
+    height: 75px;
+}
+.avatar-uploader {
+    display: block;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.avatar-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #999;
+}
+
+.lesson-description {
+    height: 100px !important;
+}
+
+.add-lesson-form-footer {
+    padding-top: 15px;
+    border-top: solid 1px #d6d6d6;
+}
+
+.add-lesson-form-footer:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.add-lesson-form-footer button {
+    float: right;
+    margin-left: 10px;
+}
