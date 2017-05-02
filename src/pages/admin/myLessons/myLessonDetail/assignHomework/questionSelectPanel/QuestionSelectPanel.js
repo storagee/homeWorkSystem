@@ -11,6 +11,7 @@ let TabPane = Tabs.TabPane;
 import MathJax from 'MathJax';
 import { Button, Select, message } from 'antd';
 let Option = Select.Option;
+let something = "some thing";
 
 
 class QuestionSelectPanel extends Component {
