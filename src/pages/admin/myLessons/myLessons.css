@@ -16,6 +16,7 @@
 
 .add-lesson .add-lesson-btn{
     float: left;
-    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 23px;
+    margin-right: 5px;
 }
